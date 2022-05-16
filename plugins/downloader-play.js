@@ -13,6 +13,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 🔗 *𝚄𝚁𝙻:* ${url}
+*Hay problema no envia audios*
   `.trim(), author, thumbnail, '', '', null, null, [
     ['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta ${url} yes`],
     ['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv ${url} yes`]
